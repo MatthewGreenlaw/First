@@ -1,17 +1,17 @@
-
-
-.things{background-color:#44B4E4;}
+.things {background-color:white;
+color: black;
+}
 
 [required]{
     font-family:Serif;
-    color:red;
+    color:black;
 }
 
 .required {
     font-size:7pt;
 }
 
-#apply{height: 20px;
+#apply {height: 20px;
 	width: 40;
     border:4px solid black;
     background-color:black;
@@ -20,7 +20,6 @@
     text-align:center;
     position: relative;
 	display: block;
-
 }
 
 #header {
@@ -81,4 +80,3 @@ textarea {
 	width: 100%;
 	clear: both;
 }
-
