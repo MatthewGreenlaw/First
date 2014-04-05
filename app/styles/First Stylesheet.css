@@ -1,8 +1,84 @@
-.text-muted{
-	border-left: solid; 
-	text-align: center;
+
+
+.things{background-color:#44B4E4;}
+
+[required]{
+    font-family:Serif;
+    color:red;
 }
-img{
-	border-left: solid; 
-	text-align: center;
+
+.required {
+    font-size:7pt;
 }
+
+#apply{height: 20px;
+	width: 40;
+    border:4px solid black;
+    background-color:black;
+    color:green;
+    box-shadow:5px 5px 5px #888;
+    text-align:center;
+    position: relative;
+	display: block;
+
+}
+
+#header {
+    position: relative;
+    top: -10px;
+    background-color: #22B2E2;
+    border-top-left-radius: px;
+    border-top-right-radius: px;
+	height: 40px;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+form {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+p {
+    font-family: Verdana, Arial, sans-serif;
+    display: inline-block;
+}
+
+input {
+    font-family: Verdana, Arial, sans-serif;
+    color: #777;
+}
+
+textarea {
+	vertical-align: top;
+	width: 400px;
+	color: rgb(1,121,9);
+	overflow: scroll;
+}
+
+#wrapper {
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+    position: relative;
+    top: -10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    box-shadow: 3px 3px 3px #444;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+#inputs {
+	width: 200px;
+	clear: both;
+}
+
+#inputs input {
+	width: 100%;
+	clear: both;
+}
+
